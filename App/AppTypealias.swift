@@ -6,5 +6,11 @@
 //
 
 import AppExtension
+import UIKit
+import AppConstants
 
+// MARK: - Configuration
 typealias Configuration = AppExtension.Configuration
+
+// MARK: - AppConstants
+typealias AppMargin = AppConstants.Margin

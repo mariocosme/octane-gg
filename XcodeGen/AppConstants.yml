@@ -1,0 +1,9 @@
+targets:
+  AppConstants:
+    templates: 
+      - Framework
+    sources:
+      - path: ../AppConstants
+    # dependencies:
+    #   - target: PointFreeFunctions
+    #     link: false

@@ -1,6 +1,7 @@
 name: octane-gg
 
 include:
+  - AppConstants.yml
   - AppExtension.yml
   - Resources.yml
   # Tests
@@ -9,6 +10,14 @@ include:
   # Templates
   - _FrameworkTemplate.yml
   - _UnitTestTemplate.yml
+
+settings:
+  base:
+    ENABLE_BITCODE: NO
+    IPHONEOS_DEPLOYMENT_TARGET: '14.1'
+  configs:
+    release:
+      ENABLE_BITCODE: YES
 
 options:
   bundleIdPrefix: cosmik
@@ -31,7 +40,6 @@ targets:
       TARGETED_DEVICE_FAMILY: 1
     sources:
       - path: ../App
-      - path: ../Resources
     dependencies:
       - carthage: Alamofire
       - carthage: AlamofireImage
