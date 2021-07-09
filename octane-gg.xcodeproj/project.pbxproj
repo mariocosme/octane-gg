@@ -22,14 +22,18 @@
 
 /* Begin PBXBuildFile section */
 		0EA7FF13E8208CB2EF2C7CBD /* AppTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28A3804EA1C30F076AFD03 /* AppTypealias.swift */; };
+		1064592F8EBD8F2DCB34648A /* OctaneFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4377BD02B53345CE5DB0CBC /* OctaneFont.swift */; };
 		1748869EC1100AD0205A5BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542AE74AB52AD10636B142E /* LaunchScreen.storyboard */; };
+		304AE9E0B86B0D75FB838AA8 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5D963956391B6EC6F77268 /* UIColor+Extensions.swift */; };
 		36D00685CA7695862BDA65B7 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B56572617CFB91C5C9FF3051 /* Inter-Regular.ttf */; };
+		383FB59E8D7037D3D19F14C8 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827709EFF56135FB0648BD4 /* UIFont+Extensions.swift */; };
 		53F4A2C4BD9C140F53ADBDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C1A8E426564F7F4F833F2F /* Assets.xcassets */; };
 		5755DA7C307140CB87B0C94E /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C594D9134E84BEDA76356 /* AlamofireImage.framework */; };
-		6D928CBC26BEA48EF2EF5000 /* OctaneFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7725651BF8F08A362678D6 /* OctaneFont.swift */; };
 		97C07F011F7F6388E034C897 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17185AB13D66FBA9BA4FF0EE /* Alamofire.framework */; };
 		A0B46D58F84E338C40E7F404 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B782A74AFA140FA50B1D18E /* Inter-Medium.ttf */; };
-		B5722EF926988225001A18E8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5722EF826988225001A18E8 /* AppConstants.swift */; };
+		B6024341D6BBBABD9EB6DABB /* OctaneColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C4C1701DDA57EA757B455 /* OctaneColor.swift */; };
+		D28C62ED45BF1CF97D6A26C6 /* SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209A1F81A5674C9B9CE45B41 /* SkeletonView.framework */; };
+		D659DC4D3BB396F898C326DD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F78CCC55ED906742D6479 /* AppConstants.swift */; };
 		E3E51D46D24177ECF19B71D7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C898EE01A6C836ACD2DE /* Configuration.swift */; };
 		E85613B86EE312ADD2436D4B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBAA8F9A65D49BF2AA974AF /* Moya.framework */; };
 		F5687DF28D53EED0F540B833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A4FF054FDB5711E8DAE95 /* AppDelegate.swift */; };
@@ -48,23 +52,29 @@
 /* Begin PBXFileReference section */
 		12E336517147300880CDBA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17185AB13D66FBA9BA4FF0EE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		1B4BD96CDB2BF52BAB4E46BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1F49E27242BD717B1060B82E /* AppConstants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppConstants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		209A1F81A5674C9B9CE45B41 /* SkeletonView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkeletonView.framework; sourceTree = "<group>"; };
+		272F78CCC55ED906742D6479 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		2E2846789D2E2C7BAF8C07E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2EEA5B7689801D7848AB5C9F /* Resources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Resources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5D963956391B6EC6F77268 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		337B796F718A115A362BCBEC /* AppExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A28A3804EA1C30F076AFD03 /* AppTypealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypealias.swift; sourceTree = "<group>"; };
 		409A4FF054FDB5711E8DAE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B782A74AFA140FA50B1D18E /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		499CB75B388243FBDEB9CFDD /* AppTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B782A74AFA140FA50B1D18E /* Inter-Medium.ttf */ = {isa = PBXFileReference; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		AD0B18B67A2F69E22F52514E /* octane-gg.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "octane-gg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1246A2B2EEE041F898FF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B4C1A8E426564F7F4F833F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B56572617CFB91C5C9FF3051 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
-		B5722EF826988225001A18E8 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B56572617CFB91C5C9FF3051 /* Inter-Regular.ttf */ = {isa = PBXFileReference; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		BFF9C898EE01A6C836ACD2DE /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		CC7C4C1701DDA57EA757B455 /* OctaneColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctaneColor.swift; sourceTree = "<group>"; };
+		D4377BD02B53345CE5DB0CBC /* OctaneFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctaneFont.swift; sourceTree = "<group>"; };
 		DA2C594D9134E84BEDA76356 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = "<group>"; };
 		DF57C8C5F108295509015AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E827709EFF56135FB0648BD4 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		EDBAA8F9A65D49BF2AA974AF /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Moya.framework; sourceTree = "<group>"; };
-		EE7725651BF8F08A362678D6 /* OctaneFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctaneFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 				97C07F011F7F6388E034C897 /* Alamofire.framework in Frameworks */,
 				5755DA7C307140CB87B0C94E /* AlamofireImage.framework in Frameworks */,
 				E85613B86EE312ADD2436D4B /* Moya.framework in Frameworks */,
+				D28C62ED45BF1CF97D6A26C6 /* SkeletonView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +104,8 @@
 		2C20A23E0B8C7BA84490DE55 /* AppConstants */ = {
 			isa = PBXGroup;
 			children = (
+				272F78CCC55ED906742D6479 /* AppConstants.swift */,
 				2E2846789D2E2C7BAF8C07E9 /* Info.plist */,
-				B5722EF826988225001A18E8 /* AppConstants.swift */,
 			);
 			path = AppConstants;
 			sourceTree = "<group>";
@@ -104,6 +115,7 @@
 			children = (
 				1F49E27242BD717B1060B82E /* AppConstants.framework */,
 				337B796F718A115A362BCBEC /* AppExtension.framework */,
+				499CB75B388243FBDEB9CFDD /* AppTheme.framework */,
 				AD0B18B67A2F69E22F52514E /* octane-gg.app */,
 				2EEA5B7689801D7848AB5C9F /* Resources.framework */,
 			);
@@ -116,6 +128,7 @@
 				A31FCDED744BD091B0B5FAC2 /* App */,
 				2C20A23E0B8C7BA84490DE55 /* AppConstants */,
 				B07D9521DEC6929D46FB005D /* AppExtension */,
+				D0117118A84451FC67C37418 /* AppTheme */,
 				5EA39ECB8EF8BD01C4B61010 /* Resources */,
 				9438C0545FE2E9C9B008180C /* Frameworks */,
 				3D7C0FB9320E0D73E7DCEB3D /* Products */,
@@ -126,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				B4C1A8E426564F7F4F833F2F /* Assets.xcassets */,
-				EE7725651BF8F08A362678D6 /* OctaneFont.swift */,
 				14492F5147B20DE7252B31C4 /* Fonts */,
 			);
 			path = Resources;
@@ -146,6 +158,7 @@
 				17185AB13D66FBA9BA4FF0EE /* Alamofire.framework */,
 				DA2C594D9134E84BEDA76356 /* AlamofireImage.framework */,
 				EDBAA8F9A65D49BF2AA974AF /* Moya.framework */,
+				209A1F81A5674C9B9CE45B41 /* SkeletonView.framework */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -155,6 +168,7 @@
 			children = (
 				409A4FF054FDB5711E8DAE95 /* AppDelegate.swift */,
 				3A28A3804EA1C30F076AFD03 /* AppTypealias.swift */,
+				BDB925829D1BB352C70DC390 /* Common */,
 				A436031E4BDF49D3685DD378 /* Storyboards */,
 				E5E95911A88B0EA4088800EA /* Support */,
 			);
@@ -176,6 +190,25 @@
 				DF57C8C5F108295509015AEB /* Info.plist */,
 			);
 			path = AppExtension;
+			sourceTree = "<group>";
+		};
+		BDB925829D1BB352C70DC390 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D0117118A84451FC67C37418 /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				1B4BD96CDB2BF52BAB4E46BD /* Info.plist */,
+				CC7C4C1701DDA57EA757B455 /* OctaneColor.swift */,
+				D4377BD02B53345CE5DB0CBC /* OctaneFont.swift */,
+				2F5D963956391B6EC6F77268 /* UIColor+Extensions.swift */,
+				E827709EFF56135FB0648BD4 /* UIFont+Extensions.swift */,
+			);
+			path = AppTheme;
 			sourceTree = "<group>";
 		};
 		E5E95911A88B0EA4088800EA /* Support */ = {
@@ -263,6 +296,21 @@
 			productReference = AD0B18B67A2F69E22F52514E /* octane-gg.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E9C4E6BAE6F80B6962B117AD /* AppTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9D0B25D18C1428EA1AA5DC /* Build configuration list for PBXNativeTarget "AppTheme" */;
+			buildPhases = (
+				B600843C40F5DDE92D48A273 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTheme;
+			productName = AppTheme;
+			productReference = 499CB75B388243FBDEB9CFDD /* AppTheme.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -271,9 +319,6 @@
 			attributes = {
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					475AE8625A1F66454C3373DC = {
-						LastSwiftMigration = 1210;
-					};
 				};
 			};
 			buildConfigurationList = 544EA2FA6A4D6EF324F31169 /* Build configuration list for PBXProject "octane-gg" */;
@@ -290,6 +335,7 @@
 			targets = (
 				475AE8625A1F66454C3373DC /* AppConstants */,
 				898F8E3E77D680FB39E40C8A /* AppExtension */,
+				E9C4E6BAE6F80B6962B117AD /* AppTheme */,
 				C5CB8A2B6CE243F2738D41AE /* Resources */,
 				5DAA330B3696E1CD46710705 /* SwiftLint */,
 				CD7708FCDAEC480F51A24222 /* octane-gg */,
@@ -346,12 +392,14 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SkeletonView.framework",
 			);
 			name = Carthage;
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireImage.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SkeletonView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,7 +412,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D928CBC26BEA48EF2EF5000 /* OctaneFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5722EF926988225001A18E8 /* AppConstants.swift in Sources */,
+				D659DC4D3BB396F898C326DD /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +437,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3E51D46D24177ECF19B71D7 /* Configuration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B600843C40F5DDE92D48A273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6024341D6BBBABD9EB6DABB /* OctaneColor.swift in Sources */,
+				1064592F8EBD8F2DCB34648A /* OctaneFont.swift in Sources */,
+				304AE9E0B86B0D75FB838AA8 /* UIColor+Extensions.swift in Sources */,
+				383FB59E8D7037D3D19F14C8 /* UIFont+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +482,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = AppExtension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -442,6 +497,31 @@
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
+		};
+		32769289D51A9277BDFCABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = AppTheme/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cosmik.AppTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
 		};
 		334553E53F6511B922326703 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -473,10 +553,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -578,17 +655,13 @@
 		C4C9A2F7758D27C3C216A406 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = AppConstants/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -599,8 +672,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cosmik.AppConstants;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -679,10 +750,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = AppExtension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -704,6 +772,31 @@
 			};
 			name = Debug;
 		};
+		E3230015FC994B1D77388241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = AppTheme/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cosmik.AppTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
 		EA9C48C379A73108FB2AC843 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -713,10 +806,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -734,17 +824,13 @@
 		FFEC54505897151D7A3214F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = AppConstants/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -755,7 +841,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cosmik.AppConstants;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -769,6 +854,15 @@
 			buildConfigurations = (
 				D69AED49B5B348469F96B6C6 /* Debug */,
 				7672241A78F555B5D0482CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E9D0B25D18C1428EA1AA5DC /* Build configuration list for PBXNativeTarget "AppTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3230015FC994B1D77388241 /* Debug */,
+				32769289D51A9277BDFCABDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

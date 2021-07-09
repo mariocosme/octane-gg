@@ -5,8 +5,9 @@
 //  Created by Mário Cosme on 09/07/2021.
 //
 
-import AppExtension
 import UIKit
+//
+import AppExtension
 import AppConstants
 
 // MARK: - Configuration

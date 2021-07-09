@@ -4,6 +4,3 @@ targets:
       - Framework
     sources:
       - path: ../Resources
-    # dependencies:
-      # - target: AppConstants
-      #   link: false

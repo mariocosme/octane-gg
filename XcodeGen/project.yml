@@ -3,6 +3,7 @@ name: octane-gg
 include:
   - AppConstants.yml
   - AppExtension.yml
+  - AppTheme.yml
   - Resources.yml
   # Tests
   # Scripts
@@ -44,4 +45,5 @@ targets:
       - carthage: Alamofire
       - carthage: AlamofireImage
       - carthage: Moya
+      - carthage: SkeletonView
       - target: SwiftLint
