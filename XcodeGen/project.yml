@@ -1,6 +1,8 @@
 name: octane-gg
 
 include:
+  - AppExtension.yml
+  - Resources.yml
   # Tests
   # Scripts
   - SwiftLint.yml
@@ -28,7 +30,7 @@ targets:
     settings:
       TARGETED_DEVICE_FAMILY: 1
     sources:
-      - path: ../Application
+      - path: ../App
       - path: ../Resources
     dependencies:
       - carthage: Alamofire

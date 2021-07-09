@@ -1,0 +1,11 @@
+targets:
+  AppExtension:
+    templates: 
+      - Framework
+    sources:
+      - path: ../AppExtension
+    # dependencies:
+    #   - target: AppConstants
+    #     link: false
+    #   - target: DevTools
+    #     link: false

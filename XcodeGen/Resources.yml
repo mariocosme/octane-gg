@@ -1,0 +1,9 @@
+targets:
+  Resources:
+    templates: 
+      - Framework
+    sources:
+      - path: ../Resources
+    # dependencies:
+      # - target: AppConstants
+      #   link: false
