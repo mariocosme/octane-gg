@@ -6,6 +6,7 @@ include:
   - AppTheme.yml
   - Resources.yml
   # Tests
+  - AppTests.yml
   # Scripts
   - SwiftLint.yml
   # Templates
@@ -41,9 +42,18 @@ targets:
       TARGETED_DEVICE_FAMILY: 1
     sources:
       - path: ../App
+      - path: ../Resources/Fonts
+      - path: ../Resources/Assets.xcassets
     dependencies:
+      # Carthage
       - carthage: Alamofire
       - carthage: AlamofireImage
       - carthage: Moya
       - carthage: SkeletonView
+      # Scripts
       - target: SwiftLint
+      # Targets
+      - target: AppTheme
+      - target: AppConstants
+      - target: Resources
+      - target: AppExtension

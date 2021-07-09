@@ -7,7 +7,7 @@
 
 import UIKit
 
-public enum OctaneColor: String {
+public enum OctaneColor: String, CaseIterable {
     case white
     case dirtyWhite
     case blueRhino
@@ -15,14 +15,14 @@ public enum OctaneColor: String {
 
     public var hexValue: String {
         switch self {
-        case .white: return "FFFFFF"
-        case .dirtyWhite: return "FAFAFA"
-        case .blueRhino: return "25334b"
-        case .greenShamrock: return "30C97B"
+        case .white: return "#FFFFFF"
+        case .dirtyWhite: return "#FAFAFA"
+        case .blueRhino: return "#25334b"
+        case .greenShamrock: return "#30C97B"
         }
     }
 
-    var uiColor: UIColor {
-        UIColor.init(hex: hexValue)!
+    public var uiColor: UIColor? {
+        UIColor(hexaRGB: hexValue)
     }
 }

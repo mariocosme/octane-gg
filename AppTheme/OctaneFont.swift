@@ -9,7 +9,7 @@ import UIKit
 
 public struct OctaneFont {
     /// The default font and size to be used within the app
-    var `default`: UIFont {
+    public static var `default`: UIFont? {
         UIFont.appFont(type: .regular, size: .regular)
     }
 }

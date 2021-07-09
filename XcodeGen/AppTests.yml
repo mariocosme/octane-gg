@@ -1,0 +1,13 @@
+targets:
+  AppTests:
+    platform: iOS
+    type: bundle.unit-test
+    sources:
+      - ../AppTests
+    dependencies:
+      - target: octane-gg
+    scheme:
+      testTargets:
+        - AppTests
+        - octane-gg
+      gatherCoverageData: true

@@ -9,8 +9,8 @@ import UIKit
 
 public extension UIFont {
 
-    static func appFont(type: OctaneFontType, size: OctaneFontSize = .regular) -> UIFont {
-        UIFont(name: type.rawValue, size: size.rawValue)!
+    static func appFont(type: OctaneFontType, size: OctaneFontSize = .regular) -> UIFont? {
+        UIFont(name: type.rawValue, size: size.rawValue)
     }
-    
+
 }
