@@ -1,0 +1,28 @@
+name: octane-gg
+include:
+  - _FrameworkTemplate.yml
+  - _UnitTestTemplate.yml
+options:
+  bundleIdPrefix: cosmik
+  xcodeVersion: '12.1'
+  deploymentTarget:
+    iOS: 14.1
+  generateEmptyDirectories: true
+  findCarthageFrameworks: true
+  createIntermediateGroups: true
+configs:
+  Debug: debug
+  Release: release
+targets:
+  octane-gg:
+    type: application
+    platform: iOS
+    deploymentTarget: '14.1'
+    settings:
+      TARGETED_DEVICE_FAMILY: 1
+    sources:
+      - path: ../octane-gg
+    dependencies:
+      - carthage: Alamofire
+      - carthage: AlamofireImage
+      - carthage: Moya
