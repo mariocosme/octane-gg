@@ -1,0 +1,202 @@
+#
+# https://medium.com/flawless-app-stories/swiftlint-in-use-279f44b3182e
+# https://regex101.com/
+#
+
+excluded:
+    - Carthage*
+    - Playgrounds/*
+    - SDKs/*
+    - Tests/*
+
+custom_rules:
+        
+    no_JSONDecoder_decode:
+        included: ".*\\.swift"
+        name: "JSONDecoder().decode bug"
+        regex: 'JSONDecoder\(\)\.decode\('
+        message: "Use JSONDecoder().decodeSafe @ PointFreeFunctions"
+        severity: error
+
+    no_merge_conflits_string:
+        included: ".*"
+        name: "No merge conflits"
+        regex: '<<<<< HEAD'
+        message: "Fix merge conflicts before commit"
+        severity: error
+
+    no_merge_conflits_code:
+        included: ".*\\.swift"
+        name: "No merge conflits"
+        regex: '<<<<< HEAD'
+        message: "Fix merge conflicts before commit"
+        severity: error
+
+    no_strong_outlet:
+        included: ".*\\.swift"
+        name: "Internal strong IBOutlet not encouraged"
+        regex: '@IBOutlet var'
+        message: "@IBOutlet private weak var"
+        severity: warning
+
+    no_letUnderscore:
+        included: ".*\\.swift"
+        name: "Don't use let _"
+        regex: 'let[ ][_][ ][=]'
+        message: "Don't use let _ = xxx , use xxx != nil"
+        severity: warning
+
+    naming_Singletons:
+        included: ".*\\.swift"
+        name: "Singleton naming"
+        regex: "static (var|let)[ ](instance|sharedInstance)[ ]*[:]"
+        message: "Don't use instance/sharedInstance. Use shared"
+        severity: error
+
+    no_TODO:
+        included: ".*\\.swift"
+        name: "Invalid TODO/FIX"
+        regex: "TODO|TO DO|FIX"
+        message: "Don't use TODO/FIX. Use #warning"
+        severity: warning
+
+    no_hardCodedImages:
+        included: ".*\\.swift"
+        name: "No hardCoded images"
+        regex: "(image|[(]named]|imageLiteralResourceName|highlightedResource|resourceName){1}[ ]*[:][ ]*[\"]"
+        message: "Don't use hardCoded images"
+        severity: error
+
+    multiline_commented_code:
+        regex: '^\s*[a-z]'
+        match_kinds: comment
+        message: "Comment starting with lowercase letter - did you forget to delete old code?"
+        severity: warning
+
+    no_hardCodedColors:
+        included: ".*\\.swift"
+        name: "No hardCoded colors"
+        regex: "UIColor[(]white|UIColor[(]red|ColorNameVariable.white_FFFFFF|ColorNameVariable.dirtyWhite_FAFAFA|ColorNameVariable.lightGray_E7EBEE|ColorNameVariable.silver_BBC3CB|ColorNameVariable.gray_8498AA|ColorNameVariable.darkSilver_465561|ColorNameVariable.charcoal_212F37|ColorNameVariable.darkGray_35393B|ColorNameVariable.obsidian_161E22|ColorNameVariable.black_000000|ColorNameVariable.lightBlue_71B9E3|ColorNameVariable.cerulean_01A2E2|ColorNameVariable.darkBlue_093256|ColorNameVariable.persianPurple_3222A0|ColorNameVariable.green_42C48C|ColorNameVariable.yellow_FFCE53|ColorNameVariable.orange_E8904A|ColorNameVariable.red_C5333D|ColorNameVariable.purple_945EB7|ColorNameVariable.dodgerBlue_536DFE|ColorNameVariable.sanJuan_355774|ColorNameVariable.easternBlue_1F85AD|ColorNameVariable.carrotOrange_F28D14|ColorNameVariable.spicyMix_805345|ColorNameVariable.caribbeanGreen_00BFA5|ColorNameVariable.brightTurquoise_00B8D4|ColorNameVariable.ochre_CA7620|ColorNameVariable.fern_65B67C|ColorNameVariable.sanMarino_3E6E9D|ColorNameVariable.seance_8E24AA|ColorNameVariable.roti_B6A33D|ColorNameVariable.glacier_7DA4C1|ColorNameVariable.mulberry_C74B72|ColorNameVariable.razzmatazz_F50057|ColorNameVariable.celery_9BBA4B|ColorNameVariable.fuchsiaBlue_6A51C9|ColorNameVariable.clementine_EF6C00|ColorNameVariable.buttercup_F1B108|ColorNameVariable.dustyGray_A29497"
+        message: "Don't use hardCoded colors. Use ColorName"
+        severity: warning
+
+file_length:
+    - 750  # warning
+    - 1000 # error
+
+type_body_length:
+    - 500  # warning
+    - 1000 # error
+
+large_tuple:
+    - 4  # warning
+    - 5  # error
+
+empty_enum_arguments:
+    warning
+
+force_try:
+    warning
+
+force_cast:
+    warning
+
+line_length:
+    warning: 175
+    error: 300
+
+function_body_length:
+  warning: 60
+
+nesting:
+    type_level:
+        warning: 3
+
+generic_type_name:
+  max_length: 60
+    
+type_name:
+    max_length: 60
+    allowed_symbols: "_"
+    excluded:
+        - iPhone
+        - T
+        - R
+        - V
+        - VM
+        - VC
+        - V2
+        - W
+        - P
+        - I
+        - E
+        - K
+        - MD
+        - MA
+        - Id
+        - LR
+
+identifier_name:
+    max_length: 60
+    excluded:
+        - iPhone
+        - id
+        - op
+        - URL
+        - iv
+        - ok
+        - to
+        - me
+        - x
+        - y
+        - w
+        - h
+
+function_parameter_count: 10
+
+disabled_rules:
+    - todo
+    - valid_ibinspectable
+    - identifier_name
+
+opening_brace:
+    severity: error
+
+duplicate_imports:
+    severity: error
+
+operator_whitespace:
+    severity: error
+
+redundant_string_enum_value:
+    severity: error
+
+trailing_whitespace:
+    severity: error
+
+trailing_newline:
+    severity: error
+
+statement_position:
+    severity: error
+
+unused_closure_parameter:
+    severity: error
+
+vertical_whitespace:
+    severity: error
+
+implicit_getter:
+    severity: warning
+
+colon:
+    severity: error
+
+shorthand_operator:
+    severity: error
+
+trailing_comma:
+    severity: error
+
+comma:
+    severity: error

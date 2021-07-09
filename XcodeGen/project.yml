@@ -1,7 +1,13 @@
 name: octane-gg
+
 include:
+  # Tests
+  # Scripts
+  - SwiftLint.yml
+  # Templates
   - _FrameworkTemplate.yml
   - _UnitTestTemplate.yml
+
 options:
   bundleIdPrefix: cosmik
   xcodeVersion: '12.1'
@@ -9,10 +15,11 @@ options:
     iOS: 14.1
   generateEmptyDirectories: true
   findCarthageFrameworks: true
-  createIntermediateGroups: true
+
 configs:
   Debug: debug
   Release: release
+
 targets:
   octane-gg:
     type: application
@@ -21,8 +28,10 @@ targets:
     settings:
       TARGETED_DEVICE_FAMILY: 1
     sources:
-      - path: ../octane-gg
+      - path: ../Application
+      - path: ../Resources
     dependencies:
       - carthage: Alamofire
       - carthage: AlamofireImage
       - carthage: Moya
+      - target: SwiftLint

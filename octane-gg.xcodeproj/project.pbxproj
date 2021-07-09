@@ -6,24 +6,48 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5DAA330B3696E1CD46710705 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 082319D4D8A90EC248554446 /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+				689F7F150B4BD973425F1DE4 /* SwiftLint */,
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		08F5408C4363693E628FD872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE0E1C801B89340014406C4 /* Assets.xcassets */; };
+		16CAFFFA09F00C9D2C436F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2092998E1BB2D995B9CFE15 /* LaunchScreen.storyboard */; };
+		4AA273329CE8E59F80B36555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2344517B703108833A6B5 /* AppDelegate.swift */; };
+		557733B7D49863EC0081D4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C1A8E426564F7F4F833F2F /* Assets.xcassets */; };
 		5755DA7C307140CB87B0C94E /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C594D9134E84BEDA76356 /* AlamofireImage.framework */; };
-		8E4D785B92B7E554A448BE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763E7F3C6BD0FA62CCF410B /* AppDelegate.swift */; };
 		97C07F011F7F6388E034C897 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17185AB13D66FBA9BA4FF0EE /* Alamofire.framework */; };
-		C5B3465DC7E0C0AA85D7E1EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B4DA385691566DF2768FEF /* LaunchScreen.storyboard */; };
 		E85613B86EE312ADD2436D4B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBAA8F9A65D49BF2AA974AF /* Moya.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C15E014877DFF6A7BF0A184E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6C3F307F3F99FD49E633EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAA330B3696E1CD46710705;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		17185AB13D66FBA9BA4FF0EE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
-		4763E7F3C6BD0FA62CCF410B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83D8BB2D1BC5F1E72198FFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1BB2344517B703108833A6B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C1E2E9B907576AF450CD518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5C650E6E0A225618058C8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0B18B67A2F69E22F52514E /* octane-gg.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "octane-gg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDE0E1C801B89340014406C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4C1A8E426564F7F4F833F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2C594D9134E84BEDA76356 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = "<group>"; };
 		EDBAA8F9A65D49BF2AA974AF /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Moya.framework; sourceTree = "<group>"; };
-		F172C8666E9ABBF93D170518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,15 +64,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		147DDF91BA0BC54049631D8E /* octane-gg */ = {
-			isa = PBXGroup;
-			children = (
-				DB61D28259B41C4A8183210E /* octane-gg */,
-			);
-			name = "octane-gg";
-			path = .;
-			sourceTree = "<group>";
-		};
 		3D7C0FB9320E0D73E7DCEB3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,18 +75,29 @@
 		5C4638FBDA51059AB71043F1 = {
 			isa = PBXGroup;
 			children = (
-				147DDF91BA0BC54049631D8E /* octane-gg */,
+				6F85881E346BBA0BA44E7C27 /* Application */,
+				5EA39ECB8EF8BD01C4B61010 /* Resources */,
 				9438C0545FE2E9C9B008180C /* Frameworks */,
 				3D7C0FB9320E0D73E7DCEB3D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		93A2C9194528C6BBE6E6B3D3 /* Storyboards */ = {
+		5EA39ECB8EF8BD01C4B61010 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				34B4DA385691566DF2768FEF /* LaunchScreen.storyboard */,
+				B4C1A8E426564F7F4F833F2F /* Assets.xcassets */,
 			);
-			path = Storyboards;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F85881E346BBA0BA44E7C27 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1BB2344517B703108833A6B5 /* AppDelegate.swift */,
+				D476511AFC0756C486B0DE3F /* Storyboards */,
+				D9EF16BF88991BBD50F262F4 /* Support */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		9438C0545FE2E9C9B008180C /* Frameworks */ = {
@@ -92,15 +118,20 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		DB61D28259B41C4A8183210E /* octane-gg */ = {
+		D476511AFC0756C486B0DE3F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				4763E7F3C6BD0FA62CCF410B /* AppDelegate.swift */,
-				CDE0E1C801B89340014406C4 /* Assets.xcassets */,
-				93A2C9194528C6BBE6E6B3D3 /* Storyboards */,
-				E8CAD9CAEDFA6F45916FEE4E /* Support */,
+				E2092998E1BB2D995B9CFE15 /* LaunchScreen.storyboard */,
 			);
-			path = "octane-gg";
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D9EF16BF88991BBD50F262F4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E2E9B907576AF450CD518 /* Info.plist */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		E893000C2955490A134DDCFF /* Carthage */ = {
@@ -110,14 +141,6 @@
 			);
 			name = Carthage;
 			path = Carthage/Build;
-			sourceTree = "<group>";
-		};
-		E8CAD9CAEDFA6F45916FEE4E /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				83D8BB2D1BC5F1E72198FFAE /* Info.plist */,
-			);
-			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +158,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				09D5B2E814FCDB3231780ABF /* PBXTargetDependency */,
 			);
 			name = "octane-gg";
 			productName = "octane-gg";
@@ -163,6 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5DAA330B3696E1CD46710705 /* SwiftLint */,
 				CD7708FCDAEC480F51A24222 /* octane-gg */,
 			);
 		};
@@ -173,14 +198,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F5408C4363693E628FD872 /* Assets.xcassets in Resources */,
-				C5B3465DC7E0C0AA85D7E1EC /* LaunchScreen.storyboard in Resources */,
+				557733B7D49863EC0081D4AC /* Assets.xcassets in Resources */,
+				16CAFFFA09F00C9D2C436F79 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		689F7F150B4BD973425F1DE4 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "${SRCROOT}/Scripts/swiftlint.sh";
+		};
 		857C5590C109BD8FCE61F7F2 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,17 +251,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4D785B92B7E554A448BE35 /* AppDelegate.swift in Sources */,
+				4AA273329CE8E59F80B36555 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		09D5B2E814FCDB3231780ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAA330B3696E1CD46710705 /* SwiftLint */;
+			targetProxy = C15E014877DFF6A7BF0A184E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		34B4DA385691566DF2768FEF /* LaunchScreen.storyboard */ = {
+		E2092998E1BB2D995B9CFE15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F172C8666E9ABBF93D170518 /* Base */,
+				A5C650E6E0A225618058C8CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -235,7 +286,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "octane-gg/Support/Info.plist";
+				INFOPLIST_FILE = Application/Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -256,7 +307,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "octane-gg/Support/Info.plist";
+				INFOPLIST_FILE = Application/Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -265,6 +316,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cosmik.octane-gg";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7672241A78F555B5D0482CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 			};
 			name = Release;
 		};
@@ -387,9 +444,24 @@
 			};
 			name = Debug;
 		};
+		D69AED49B5B348469F96B6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		082319D4D8A90EC248554446 /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69AED49B5B348469F96B6C6 /* Debug */,
+				7672241A78F555B5D0482CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		544EA2FA6A4D6EF324F31169 /* Build configuration list for PBXProject "octane-gg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

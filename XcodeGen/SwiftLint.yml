@@ -1,0 +1,6 @@
+aggregateTargets:
+  SwiftLint:
+    buildScripts:
+       - script: ${SRCROOT}/Scripts/swiftlint.sh
+         name: "SwiftLint"
+         shell: /bin/bash
